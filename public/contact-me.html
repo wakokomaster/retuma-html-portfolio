@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body>
     <style>
       body {
         background-color: #c8d9ed;
@@ -15,16 +13,16 @@
         margin: 0;
         padding-bottom: 15px;
         overflow: hidden;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid black; /* Add border at the bottom of the list */
       }
 
       nav li {
         float: left;
-        border-right: 1px solid black;
+        border-right: 1px solid black; /* Add border between list items */
       }
 
       nav li:last-child {
-        border-right: none;
+        border-right: none; /* Remove border from the last list item */
       }
 
       nav li a {
@@ -36,7 +34,8 @@
         font-weight: bold;
       }
     </style>
-
+  </head>
+  <body>
     <nav>
       <ul>
         <li><a href="exercise-11-my-portfolio.html">Home</a></li>
@@ -47,20 +46,25 @@
       </ul>
     </nav>
 
-    <h1>All the Animals</h1>
-    <h2>Rabbit:</h2>
-    <img src="../4.0-File-Paths/Folder0/rabbit.png" alt="" />
+    <h1>Contact Details</h1>
+    <p>Fuentes Subdivision, Roxas City, Capiz</p>
+    <p>09451534753</p>
+    <p>retuma.martin18@gmail.com</p>
 
-    <h2>Cat:</h2>
-    <img src="../4.0-File-Paths/Folder0/Folder3/cat.png" alt="" />
+    <hr />
 
-    <h2>Dog:</h2>
-    <img src="../4.0-File-Paths/dog.png" alt="" />
-
-    <h2>Fish:</h2>
-    <img src="../4.0-File-Paths/Folder1/fish.png" alt="" />
-
-    <h2>Bird:</h2>
-    <img src="../4.0-File-Paths/Folder1/Folder2/bird.png" alt="" />
+    <form action="">
+      <label for="">Your Name:</label>
+      <input type="text" />
+      <br />
+      <label for="">Your Email:</label>
+      <input type="email" />
+      <br />
+      <label for="">Your Message</label>
+      <br />
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>
